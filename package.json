@@ -4,7 +4,7 @@
   "url": "http://github.com/emuanalytics/node-mapnik",
   "homepage": "http://mapnik.org",
   "author": "Dane Springmeyer <dane@mapbox.com> (mapnik.org)",
-  "version": "3.7.1-custom",
+  "version": "3.7.1-patched",
   "mapnik_version": "v3.0.18",
   "main": "./lib/mapnik.js",
   "binary": {
