@@ -196,3 +196,20 @@ To run the tests do:
 ## License
 
 BSD, see LICENSE.txt
+
+
+## Notes for Emu Analytics custom build and publish
+
+Publishing to GitHub requires node-pre-gyp-github
+
+```
+npm install -g node-pre-gyp-github
+```
+
+To publish a binary build:
+
+```
+make release
+./node_modules/.bin/node-pre-gyp package
+node-pre-gyp-github publish --release
+```
